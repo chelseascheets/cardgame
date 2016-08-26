@@ -72,6 +72,8 @@
     
     console.log(computerItem);
     
+    console.log(computerItem);
+    
    function play() {
 
 =======
@@ -88,6 +90,7 @@
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> origin/master
@@ -96,6 +99,12 @@
                 else {
                     setCaption("Wow, you kinda suck at this!");
                 }
+=======
+                else (myItem = "Scissors") {
+                    setCaption("Computer wins!");
+                } 
+
+>>>>>>> gh-pages
                 break;
             case 'Paper':
                 if (myItem === 'Rock') {
@@ -109,16 +118,20 @@
                 break;
             case “Paper”:
                 if (myItem = Paper) {
+<<<<<<< HEAD
 
 =======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> gh-pages
                     setCaption("You win!");
                 }
                 else if (myItem === 'Paper') {
                     setCaption("It's a tie!");
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -135,6 +148,9 @@
                 else {
                     setCaption("You lose!");
 >>>>>>> origin/master
+=======
+                else ();
+>>>>>>> gh-pages
                 }
                 break;
             case 'Scissors':
@@ -150,6 +166,11 @@
                 break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        }
+    }
+>>>>>>> gh-pages
 
             }
 
