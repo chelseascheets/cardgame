@@ -3,21 +3,6 @@
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
 
-    document.getElementById('btnRock').oneclick = playRock;
-    document.getElementById('btnPaper').oneclick = playPaper;
-    document.getElementById('btnScissors').oneclick = playScissors;
-    
-    var computerChoice = Math.floor((Math.random() * 3) + 1);
-    var computerItem = items [computerChoice - 1];
-
-
-    var items = ['Rock', 'Paper', 'Scissors'];
-    var computerItem;
-
-
-    var items = ['Rock', 'Paper', 'Scissors'];
-    var computerItem;
-
 
     document.getElementById('Rock').onclick = playRock;
     document.getElementById('Paper').onclick = playPaper;
@@ -102,17 +87,6 @@
                 }
                 break;
         }
-    }
-
-            }
-
-        }
-
-
-            }
-
-            }
-
     }
 })();
 
