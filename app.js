@@ -39,18 +39,9 @@
         document.getElementById('computerItem').innerHTML = item;
     }
 
-    function play(myItem) {
-
-
-
-    
     console.log(computerItem);
     
-    console.log(computerItem);
-    
-   function play() {
-
-
+   function play(myItem) {
         switch (computerItem) {
             case 'Rock':
                 if (myItem === 'Rock') {
