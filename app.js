@@ -1,6 +1,7 @@
 (function () {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
@@ -13,6 +14,11 @@
     var computerItem = items [computerChoice - 1];
 
 
+=======
+    var items = ['Rock', 'Paper', 'Scissors'];
+    var computerItem;
+
+>>>>>>> origin/master
 =======
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
@@ -48,7 +54,10 @@
         document.getElementById('caption').innerHTML = caption;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     function showComputerItem() {
@@ -58,12 +67,15 @@
 
     function play(myItem) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     
     console.log(computerItem);
     
    function play() {
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
         switch (computerItem) {
@@ -75,7 +87,10 @@
                     setCaption("You lose!");
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
                 else {
@@ -84,6 +99,7 @@
                 break;
             case 'Paper':
                 if (myItem === 'Rock') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 else (myItem = "Scissors") {
@@ -96,11 +112,14 @@
 
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
                     setCaption("You win!");
                 }
                 else if (myItem === 'Paper') {
                     setCaption("It's a tie!");
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 else {
@@ -108,6 +127,10 @@
 
                 else ();
 
+=======
+                else {
+                    setCaption("You lose!");
+>>>>>>> origin/master
 =======
                 else {
                     setCaption("You lose!");
@@ -126,11 +149,15 @@
                 }
                 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             }
 
         }
 
+=======
+            }
+>>>>>>> origin/master
 =======
             }
 >>>>>>> origin/master
