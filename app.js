@@ -54,7 +54,7 @@
                     setCaption("Wow, you kinda suck at this!");
                 }
                 break;
-            case “Paper”:
+            case 'Paper':
                 if (myItem === Paper) {
                     setCaption("You win!");
                 }
@@ -63,7 +63,6 @@
                 }
                 else {
                     setCaption("You lose!");
-             
                 }
                 break;
             case 'Scissors':
