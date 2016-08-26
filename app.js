@@ -1,8 +1,5 @@
 (function () {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
 
@@ -14,16 +11,14 @@
     var computerItem = items [computerChoice - 1];
 
 
-=======
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
 
->>>>>>> origin/master
-=======
+
     var items = ['Rock', 'Paper', 'Scissors'];
     var computerItem;
 
->>>>>>> origin/master
+
     document.getElementById('Rock').onclick = playRock;
     document.getElementById('Paper').onclick = playPaper;
     document.getElementById('Scissors').onclick = playScissors;
@@ -53,21 +48,15 @@
     function setCaption(caption) {
         document.getElementById('caption').innerHTML = caption;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     function showComputerItem() {
         item = item || computerItem;
         document.getElementById('computerItem').innerHTML = item;
     }
 
     function play(myItem) {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 
     
     console.log(computerItem);
@@ -76,10 +65,7 @@
     
    function play() {
 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
         switch (computerItem) {
             case 'Rock':
                 if (myItem === 'Rock') {
@@ -88,69 +74,20 @@
                 else if (myItem === 'Paper') {
                     setCaption("You lose!");
                 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
                 else {
                     setCaption("Wow, you kinda suck at this!");
                 }
-=======
-                else (myItem = "Scissors") {
-                    setCaption("Computer wins!");
-                } 
-
->>>>>>> gh-pages
-                break;
-            case 'Paper':
-                if (myItem === 'Rock') {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-                else (myItem = "Scissors") {
-                    setCaption("Computer wins!");
-                } 
-
                 break;
             case “Paper”:
-                if (myItem = Paper) {
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-=======
->>>>>>> gh-pages
+                if (myItem === Paper) {
                     setCaption("You win!");
                 }
-                else if (myItem === 'Paper') {
+                else if (myItem ==='Paper') {
                     setCaption("It's a tie!");
                 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
                 else {
                     setCaption("You lose!");
-
-                else ();
-
-=======
-                else {
-                    setCaption("You lose!");
->>>>>>> origin/master
-=======
-                else {
-                    setCaption("You lose!");
->>>>>>> origin/master
-=======
-                else ();
->>>>>>> gh-pages
+             
                 }
                 break;
             case 'Scissors':
@@ -164,24 +101,18 @@
                     setCaption("It's a tie!");
                 }
                 break;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         }
     }
->>>>>>> gh-pages
 
             }
 
         }
 
-=======
+
             }
->>>>>>> origin/master
-=======
+
             }
->>>>>>> origin/master
+
     }
 })();
 
