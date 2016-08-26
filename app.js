@@ -6,7 +6,7 @@
     document.getElementById('btnPaper').oneclick = playPaper;
     document.getElementById('btnScissors').oneclick = playScissors;
     
-    var computerChoice = Math.floor((Math.random()* 3) + 1);
+    var computerChoice = Math.floor((Math.random() * 3) + 1);
     var computerItem = items [computerChoice - 1];
 
 
@@ -27,6 +27,8 @@
         document.getElementById('caption').innerHTML = caption;
     }
     
+    console.log(computerItem);
+    
    function play() {
         switch (computerItem) {
 	        case “Rock”:
@@ -36,19 +38,19 @@
                 else if (myItem = "Paper") {
                     setCaption("Computer wins!");
                 }
-                else (myItem = "scissors") {
+                else (myItem = "Scissors") {
                     setCaption("Computer wins!");
-                }
+                } 
+
                 break;
             case “Paper”:
-                if (myItem) {
+                if (myItem = Paper) {
                     setCaption("You win!");
                 }
                 else if (paper) {
                     setCaption("It's a tie!");
                 }
-                else (scissors) {
-                    setCaption("Computer wins!");
+                else ();
                 }
                 break;
             case “Scissors”:
@@ -61,9 +63,6 @@
                 else (scissors) {
                     setCaption("Computer wins!");
                 }
-                break;
-            case “”:
-                
                 break;
         }
     }
